@@ -7,7 +7,7 @@
 .title {
   font-style: normal;
   font-weight: 600;
-  font-size: 26.3594px;
+  font-size: 20px;
   line-height: 120%;
 
   color: var(--titleColor);
@@ -41,7 +41,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18.14px;
+  font-size: 15px;
   line-height: 137%;
   color: var(--titleColor);
 
@@ -68,14 +68,14 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 177%;
   color: var(--secondaryTextColor);
 }
 .connectButton {
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 125%;
   color: var(--white);
   background: #003ecb;

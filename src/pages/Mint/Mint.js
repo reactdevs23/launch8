@@ -6,13 +6,13 @@ import ApyStaking from "../../components/Home/ApyStaking/ApyStaking";
 
 const Mint = () => {
   return (
-    <div className="contain">
+    <>
       <div className={styles.wrapper}>
         <MintDetails />
         <MintInfo />
       </div>
       <ApyStaking />
-    </div>
+    </>
   );
 };
 

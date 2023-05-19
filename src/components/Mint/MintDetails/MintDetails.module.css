@@ -30,7 +30,7 @@
 .text {
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 163%;
   color: var(--titleColor);
 }
@@ -40,7 +40,7 @@
 .connectButton {
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 125%;
   color: var(--white);
   background: #003ecb;
