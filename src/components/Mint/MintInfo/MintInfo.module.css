@@ -75,7 +75,7 @@
 .connectButton {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 125%;
   color: var(--white);
   background: #003ecb;
@@ -89,9 +89,6 @@
 @media only screen and (max-width: 1350px) {
   .label {
     font-size: 16px;
-  }
-  .connectButton {
-    font-size: 22px;
   }
 }
 @media only screen and (max-width: 520px) {
