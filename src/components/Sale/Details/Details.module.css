@@ -1,0 +1,268 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 18px;
+  max-width: 795px;
+  margin: 0 auto;
+  position: relative;
+}
+.projectInfo {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1px solid var(--secondaryTextColor);
+  border-top: none;
+  border-radius: 0 0 18px 18px;
+}
+.banner {
+  width: 100%;
+  min-height: 143px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px 18px 0 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: -70px;
+}
+.icon {
+  width: 134px;
+}
+.featuresAndStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.features {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.feature {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.14px;
+  line-height: 133%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: #003ecb;
+  border-radius: 2.96071px;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.checkmark {
+  font-size: 16px;
+  color: #fff;
+}
+.status {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.86px;
+  line-height: 133%;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #04d153;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 16.1719px;
+  padding: 8px 15px;
+  margin-left: auto;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+
+  background: #15af50;
+  border-radius: 50%;
+}
+.live {
+  background: rgba(21, 175, 80, 0.4);
+  color: #04d153;
+}
+.succesFull {
+  background: #04e474;
+  color: var(--titleColor);
+}
+.upcoming {
+  background: #febe4f;
+  color: var(--titleColor);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.socialContaner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+.socialIcon {
+  font-size: 32px;
+  color: var(--titleColor);
+}
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35.57px;
+  line-height: 120%;
+
+  color: var(--secondaryTextColor);
+}
+
+.info {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--textColor);
+}
+.showMore {
+  color: #003ecb;
+  cursor: pointer;
+}
+.detailsTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.9014px;
+  line-height: 120%;
+  color: var(--secondaryTextColor);
+  padding-bottom: 5px;
+}
+.keyAndValue {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-bottom: 0.777043px dashed var(--secondaryTextColor);
+  padding: 15px 0;
+}
+.key,
+.value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.9393px;
+  line-height: 120%;
+  color: var(--textColor);
+  word-break: break-all;
+}
+.value {
+  margin-left: auto;
+}
+.gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(
+    91.26deg,
+    #8ad4ec 0%,
+    #ef96ff 21.74%,
+    #ff56a9 54.03%,
+    #ffaa6c 85.28%
+  );
+}
+@media only screen and (max-width: 1399px) {
+  .projectInfo {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .header {
+    margin-top: -60px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .icon {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    margin-top: -30px;
+  }
+  .icon {
+    width: 70px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .detailsTitle {
+    font-size: 22px;
+  }
+  .socialIcon {
+    font-size: 24px;
+  }
+  .info {
+    font-size: 20px;
+  }
+  .feature,
+  .status {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .header {
+    margin-top: -30px;
+  }
+  .icon {
+    width: 50px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .detailsTitle {
+    font-size: 20px;
+  }
+  .socialIcon {
+    font-size: 20px;
+  }
+  .info {
+    font-size: 18px;
+  }
+  .feature,
+  .status {
+    font-size: 13px;
+  }
+  .key,
+  .value {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .projectInfo {
+    padding: 12px;
+  }
+  .feature,
+  .status {
+    font-size: 10px;
+  }
+  .socialContaner {
+    gap: 10px;
+  }
+}

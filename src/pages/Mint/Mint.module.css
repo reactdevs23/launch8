@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper {
+    padding-top: 110px;
+  }
+}

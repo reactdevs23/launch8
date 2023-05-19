@@ -1,0 +1,24 @@
+.wrapper {
+  border: 0.73px solid rgba(14, 12, 21, 0.7);
+  border-radius: 20.0166px;
+  padding: 10px;
+}
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.9014px;
+  line-height: 184%;
+
+  color: var(--titleColor);
+  text-align: center;
+}
+
+.tagline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.9393px;
+  line-height: 120%;
+
+  color: var(--titleColor);
+  text-align: center;
+}

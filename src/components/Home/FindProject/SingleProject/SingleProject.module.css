@@ -1,0 +1,240 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 18px;
+}
+.projectInfo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1px solid rgba(14, 12, 21, 0.7);
+  border-top: none;
+  border-radius: 0 0 18px 18px;
+}
+.banner {
+  width: 100%;
+  min-height: 143px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px 18px 0 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: -50px;
+}
+.icon {
+  width: 69px;
+}
+.featuresAndStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.features {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.feature {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.88px;
+  line-height: 133%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: #003ecb;
+  border-radius: 2.96071px;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.checkmark {
+  font-size: 16px;
+  color: #fff;
+}
+.status {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 133%;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #04d153;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 16.1719px;
+  padding: 8px 15px;
+  margin-left: auto;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+
+  background: #15af50;
+  border-radius: 50%;
+}
+.live {
+  background: rgba(21, 175, 80, 0.4);
+  color: #04d153;
+}
+.succesFull {
+  background: #04e474;
+  color: var(--titleColor);
+}
+.upcoming {
+  background: #febe4f;
+  color: var(--titleColor);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.socialContaner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.socialIcon {
+  font-size: 20px;
+  color: var(--titleColor);
+}
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 206%;
+
+  color: var(--titleColor);
+}
+
+.info {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 155%;
+  color: var(--textColor);
+}
+.softCaps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 15px;
+}
+.softCap {
+  padding: 8px 15px;
+  background: #f8f8f9;
+  border: 0.3px solid #0e0c15;
+  border-radius: 28.19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.text {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.9375px;
+  line-height: 150%;
+  color: var(--titleColor);
+}
+.softCap .text {
+  text-align: center;
+}
+.softCapValue {
+  opacity: 1;
+  color: #003ecb;
+  text-transform: uppercase;
+}
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3889px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: var(--titleText);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.closedIn {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12.3889px;
+  font-weight: 400;
+  width: 140px;
+  height: 70px;
+  color: black;
+  background-image: url("../../../../images/projects/closedIn.png");
+  background-size: 100% 100%;
+  padding: 0 8px;
+}
+.seeDetails {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3889px;
+  line-height: 100%;
+  color: #ffffff;
+  background: #003ecb;
+  border-radius: 17px;
+  padding: 10px 15px;
+}
+@media only screen and (max-width: 1399px) {
+  .projectInfo {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -40px;
+  }
+  .icon {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 16px;
+  }
+  .projectInfo {
+    padding: 12px;
+  }
+}

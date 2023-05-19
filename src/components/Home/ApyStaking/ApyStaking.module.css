@@ -1,0 +1,189 @@
+.apyStaking {
+  padding-bottom: 100px;
+}
+
+.contain {
+  border: 1px solid var(--titleColor);
+  border-radius: 32px;
+  padding: 50px;
+  position: relative;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+.quote {
+  position: absolute;
+  top: 0;
+  left: 40px;
+
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 206.4px;
+  line-height: 100%;
+
+  color: #003ecb;
+  transform: translateY(-37%);
+}
+.textContainer {
+  max-width: 505px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: var(--titleColor);
+}
+.title span {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(
+    91.26deg,
+    #8ad4ec 0%,
+    #ef96ff 21.74%,
+    #ff56a9 54.03%,
+    #ffaa6c 85.28%
+  );
+}
+.text {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 194%;
+  color: var(--titleColor);
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 10px;
+}
+.button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--titleColor);
+  border: none;
+  outline: none;
+  border: 1px solid #003ecb;
+  border-radius: 8px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 40px;
+  cursor: pointer;
+}
+.activeButton {
+  background: #003ecb;
+  border: 1px solid transparent;
+  color: var(--white);
+}
+.arrow {
+  width: 28px;
+}
+.apyStakingImg {
+  position: absolute;
+  height: 115%;
+  right: 0;
+  top: 0;
+  max-width: 477px;
+  transform: translate(10%, -10%);
+}
+@media only screen and (max-width: 1199px) {
+  .contain {
+    padding: 40px;
+  }
+  .apyStakingImg {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .contain {
+    padding: 35px;
+  }
+  .quote {
+    font-size: 180px;
+  }
+  .apyStakingImg {
+    height: 100%;
+
+    top: 50%;
+    max-width: 300px;
+    transform: translate(5%, -50%);
+  }
+  .textContainer {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .apyStakingImg {
+    max-width: 280px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contain {
+    max-width: auto;
+    width: auto;
+    padding: 50px;
+  }
+  .apyStakingImg {
+    display: none;
+  }
+  .textContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title,
+  .text {
+    text-align: center;
+  }
+  .apyStaking {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .contain {
+    padding: 20px;
+    width: 90%;
+  }
+  .quote {
+    font-size: 120px;
+    left: 20px;
+  }
+  .button {
+    font-size: 18px;
+  }
+  .arrow {
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .buttonContainer {
+    gap: 5px;
+  }
+  .button {
+    padding: 6px 20px;
+  }
+}

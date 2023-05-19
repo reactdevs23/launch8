@@ -1,0 +1,146 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f8f8f9;
+  border: 0.73px solid rgba(14, 12, 21, 0.7);
+  border-radius: 20.0166px;
+  padding: 18px;
+}
+
+.wrap {
+  background: #ffffff;
+  box-shadow: 0px 7.15335px 14.3067px #e9e9e9;
+  backdrop-filter: blur(
+    1.19223px
+  ); /* Note: backdrop-filter has minimal
+        browser support */
+  border-radius: 18.4768px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.box {
+  background: #f8f8f9;
+  border-radius: 10.7782px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+
+  width: 100%;
+}
+.currencyInfo {
+  max-width: 250px;
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.8576px;
+  line-height: 138%;
+  color: var(--titleColor);
+}
+.iconAndText {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.iconAndText .text {
+  margin-top: 2px;
+}
+.waitlisted {
+  background: rgba(255, 60, 60, 0.2);
+  border-radius: 4.61921px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 4px;
+  cursor: pointer;
+}
+.isWaitlisted {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.8576px;
+  line-height: 140%;
+  color: #ff3c3c;
+}
+.connectBtn {
+  background: #e2e2e2;
+  border-radius: 4.61921px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.8576px;
+  line-height: 138%;
+
+  color: var(--secondaryTextColor);
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gridBox .box {
+  max-width: 100%;
+}
+.minMax {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3179px;
+  line-height: 155%;
+
+  color: var(--titleColor);
+}
+@media only screen and (max-width: 1199px) {
+  .wrapper {
+    padding: 12px;
+  }
+  .gridBox {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .gridBox {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .gridBox {
+    grid-template-columns: 1fr;
+  }
+  .text {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .currencyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .iconAndText {
+    gap: 3px;
+  }
+  .connectBtn {
+    margin-left: auto;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .wrapper {
+    padding: 8px;
+  }
+  .wrap {
+    padding: 8px;
+  }
+}
